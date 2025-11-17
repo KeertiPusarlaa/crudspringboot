@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: crudspringboot
+  description: A Spring Boot application for CRUD operations, developed by KeertiPusarlaa.
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/crudspringboot
+    jira/project-key: SCRUM
+    jira/label: backstage-component:crudspringboot
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
